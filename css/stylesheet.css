@@ -1,0 +1,309 @@
+body {
+	font-family: 'Playfair display', sans-serif;
+}
+
+.blueback {
+	background-color: #b6dbf7;
+	width: auto;
+	padding-top: 420px;
+	padding-bottom: 480px;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Spectral SC', serif;
+	font-size: 55px;
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+}
+
+.black-nav {
+	background-color: black;
+	border-bottom: 1px solid;
+	color: white;
+	padding: 15px 0px 15px 0px;
+	text-align: center;
+}
+
+.whiteback {
+	width: auto;
+	padding-top: 150px;
+	padding-bottom: 150px;
+	align-items: center;
+}
+
+.navbar .img-fluid {
+	margin-bottom: 10px;
+}
+
+#biophoto,
+#biobox {
+	width: auto;
+	height: 600px;
+	border: 5px;
+	padding: 50px;
+	outline-color: grey;
+	outline-width: 5px;
+}
+
+#bio-photo {
+	height: 500px;
+	float: left;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+	color: white;
+	background-color: #f5cf29;
+}
+
+img {
+	width: auto;
+	height: 200px;
+	padding-top: 20px;
+}
+
+#biobox {
+	width: auto;
+	height: 600px;
+	vertical-align: middle;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.articlephotos {
+	width: 300px;
+	height: auto;
+	max-height: 400px;
+	align-items:center;
+}
+
+.articles {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.cutlines {
+	font-size: x-small;
+	padding-left: 187px;
+}
+
+.contact-links {
+	color: black;
+	align-items: center;
+	font-family: 'Hind light', serif;
+
+}
+
+.contacts{
+	padding: 0px 250px 0px 250px;
+
+}
+
+.articlelinks {
+	color: black;
+	text-decoration: none;
+}
+
+
+#contactpage{
+	background-color: #b6dbf7;
+	width: auto;
+	align-items: center;
+}
+
+.titles{
+	font-family: 'Spectral SC', serif;
+}
+
+.row{
+	align-items: center;
+
+}
+
+.greyline {
+	margin: 20px;
+	border: 0;
+	height: 1px;
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(128, 139, 150, 0.5), rgba(0, 0, 0, 0));
+}
+
+/* MEDIA QUERIES */
+/* MEDIA QUERIES */
+/* MEDIA QUERIES */
+
+
+@media (max-width: 768px) {
+
+	h1{
+		font-size: 35px;
+	}
+
+	.container, .container-fluid{
+		width: auto;
+	}
+
+	.blueback {
+		padding-right: 0px;
+		width: auto;
+		text-align: center;
+	}
+
+	#bio-photo{
+		align-content: center;
+	}
+
+	.bio{
+		width: 414px;
+  		padding: 10px;
+  		margin: 0;
+  		text-overflow: wrap;
+	}
+
+	.box{
+		width: 768px;
+		font-size: xx-small;
+	}
+
+
+
+	.box h2{
+		font-size: 20px;
+		text-align: left;
+	}
+
+	.box h4 {
+		font-size: 11px;
+	}
+
+	.box h5{
+		font-size: 10px;
+		margin-left: 0px !important;
+
+	}
+
+	.box .experience{
+		display: none;
+	}
+
+	.box b{
+		margin-left: 0px !important;
+	}
+
+	.box .dots{
+		display: none;
+	}
+
+	.box h6{
+		font-size: 11px;
+	}
+
+	.box .skills{
+		display: none;
+	}
+
+
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 991px){
+
+	h1 {
+		font-size: 35px;
+	}
+
+	.container, .container-fluid{
+		width: 991px;
+	}
+
+	.blueback {
+		padding-right: 0px;
+		width: auto;
+		text-align: center;
+	}
+
+
+	#bio-photo{
+		align-content: center;
+	}
+
+	.bio{
+		width: 768px;
+  		padding: 10px;
+  		margin: 0;
+  		text-align: center;
+	}
+
+	.box{
+		width: 991px;
+		font-size: xx-small;
+	}
+
+	.box h2{
+		font-size: 20px;
+		text-align: left;
+	}
+
+	.box h4 {
+		font-size: 11px;
+	}
+
+	.box h5{
+		font-size: 10px;
+		text-align-last: left;
+		margin-left: 0px !important;
+
+	}
+
+	.box b{
+		margin-left: 0px !important;
+	}
+
+	.box h6{
+		font-size: 11px;
+	}
+
+	.box .dots{
+		display: none;
+	}
+
+	.box #umd{
+		text-align-last: left;
+	}
+}
+
+@media (max-width: 1199px){
+	.whiteback{
+		max-width: 1199px;
+	}
+
+	.box{
+		width: 1199px;
+		text-overflow: wrap;
+	}
+
+	.bio{
+		width: 768px;
+  		padding: 10px;
+  		margin: 0;
+  		text-align: center;
+	}
+	.box h5{
+		text-align-last: left;
+	}
+
+	.box h4{
+		text-align-last: left;
+	}
+
+	.box #umd{
+		text-align-last: left;
+	}
+}
