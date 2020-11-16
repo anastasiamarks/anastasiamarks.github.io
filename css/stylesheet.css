@@ -125,6 +125,7 @@ img {
 
 .row{
 	align-items: center;
+	max-width: auto;
 
 }
 
@@ -140,73 +141,52 @@ img {
 /* MEDIA QUERIES */
 
 
-@media (max-width: 768px) {
+@media (max-width: 425px) {
 
 	h1{
-		font-size: 35px;
+		font-size: 20px;
+		margin:0;
 	}
 
-	.container, .container-fluid{
-		width: auto;
+	img, #biophoto{
+		float: left;
+		width: 300px;
+		height: auto;
+		text-align-last: center;
+		padding-left: 15px;
 	}
 
 	.blueback {
-		padding-right: 0px;
 		width: auto;
+	}
+
+	#umd{
+		text-align: left;
+		font-size: x-small;
+	}
+
+
+	.row{
+		max-width: 300px;
+	}
+	.biobox{
 		text-align: center;
+		padding-bottom: 60px;
 	}
-
-	#bio-photo{
-		align-content: center;
-	}
-
 	.bio{
-		width: 414px;
+		max-width: 280px;
   		padding: 10px;
-  		margin: 0;
-  		text-overflow: wrap;
+  		margin: 0px;
 	}
 
 	.box{
-		width: 768px;
-		font-size: xx-small;
+		width: 320px;
+		height: auto;
 	}
 
-
-
-	.box h2{
-		font-size: 20px;
-		text-align: left;
-	}
-
-	.box h4 {
-		font-size: 11px;
-	}
-
-	.box h5{
-		font-size: 10px;
-		margin-left: 0px !important;
-
-	}
-
-	.box .experience{
-		display: none;
-	}
-
-	.box b{
-		margin-left: 0px !important;
-	}
-
-	.box .dots{
-		display: none;
-	}
-
-	.box h6{
-		font-size: 11px;
-	}
-
-	.box .skills{
-		display: none;
+	.container, .container-fluid, .whiteback{
+		width: 300px;
+		padding-bottom: 50px;
 	}
 
 
@@ -219,8 +199,15 @@ img {
 		font-size: 35px;
 	}
 
-	.container, .container-fluid{
-		width: 991px;
+	.container, .whiteback{
+		width: 700px;
+		width: auto;
+	}
+
+	.box{
+		width: 700px;
+		text-overflow: wrap;
+		width: auto;
 	}
 
 	.blueback {
@@ -234,15 +221,14 @@ img {
 		align-content: center;
 	}
 
-	.bio{
-		width: 768px;
-  		padding: 10px;
-  		margin: 0;
-  		text-align: center;
+	#umd{
+		font-size: 8px;
 	}
 
+
+	
 	.box{
-		width: 991px;
+		width: auto;		
 		font-size: xx-small;
 	}
 
@@ -256,7 +242,7 @@ img {
 	}
 
 	.box h5{
-		font-size: 10px;
+		font-size: 9px;
 		text-align-last: left;
 		margin-left: 0px !important;
 
@@ -275,18 +261,21 @@ img {
 	}
 
 	.box #umd{
-		text-align-last: left;
+		text-align-last: justify;
+		font-size: 16px;
 	}
 }
 
 @media (max-width: 1199px){
 	.whiteback{
 		max-width: 1199px;
+		width: auto;
 	}
 
 	.box{
 		width: 1199px;
 		text-overflow: wrap;
+		width: auto;
 	}
 
 	.bio{
@@ -299,11 +288,8 @@ img {
 		text-align-last: left;
 	}
 
-	.box h4{
-		text-align-last: left;
-	}
-
 	.box #umd{
-		text-align-last: left;
+		font-size: 20px;
+
 	}
 }
