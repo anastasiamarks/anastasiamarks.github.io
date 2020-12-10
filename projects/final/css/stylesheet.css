@@ -133,7 +133,7 @@ h3{
 }
 
 .pictureback{
-	background: url('../images/newdarkgreen.jpg');
+	background: url('../images/darkfront.jpg');
 	background-repeat: no-repeat;
 	background-size: 100%;
 	background-color: black;
@@ -141,6 +141,7 @@ h3{
 	height: 400px;
 	padding: 100px 0px 60px 0px;
 }
+
 .finaltext{
 	color:white;
 }
