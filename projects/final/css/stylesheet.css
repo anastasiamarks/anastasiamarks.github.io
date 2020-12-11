@@ -25,7 +25,7 @@ a:hover {
 }
 
 .black-back {
-	background: url('../images/darkfront.jpg');
+	background: url(../images/darkfront.jpg);
 	background-repeat: no-repeat;
 	background-size: 100%;
 	background-color: black;
