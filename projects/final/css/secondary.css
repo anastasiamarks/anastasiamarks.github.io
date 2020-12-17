@@ -30,9 +30,7 @@ a:hover {
 	background-size: 100%;
 	background-color: black;
 	width: auto;
-	height: auto;
-	padding-top: 200px;
-	padding-bottom: 800px;
+	height: 900px;
 }
 
 .titlebox {
@@ -138,8 +136,8 @@ h3{
 	background-size: 100%;
 	background-color: black;
 	width: auto;
-	height: 700px;
-	padding: 70px 0px 0px 0px;
+	height: auto;
+	padding: 50px 0px 50px 0px;
 }
 
 .finaltext{
@@ -209,13 +207,10 @@ h1 {
 @media (max-width: 425px){
 
 
-	.titlebox {
-    	padding-left: 170px;
-    	border: hidden;
-    	text-align: center;
-    	left: 55%;
-    	width: 300px;
-  }
+	.black-back {
+		background-repeat: repeat;
+		align-content: center;
+  }  	
 
 	.blurbbox {
 		margin: 0 auto;
@@ -231,6 +226,7 @@ h1 {
 		padding:0;
 		top: 50%;
 		left: 50%;
+		height: auto;
 	}
 
 	.black-back{
@@ -248,20 +244,42 @@ h1 {
 	}
 
 	.pictureback{
-		padding: 0;
+		padding: 20px 0px 20px 0px;
 		background-color: transparent;
 		background-repeat: repeat;
+		height: auto;
+	}
+
+	h1 {
+	color: black;
+	visibility: hidden;
 	}
 }
 
+
 @media (max-width: 800px)(min-width: 425px){
-	.titlebox{
-		left:51%;
+	
+	.black-back{
+		background-repeat: repeat;
+		height: 800px;
 	}
 
 	.graphbox {
 		align-items: center;
 		left: 50%;
+	}
+
+	.pictureback{
+		padding: 20px 0px 20px 0px;
+		background-color: transparent;
+		background-repeat: repeat;
+		height: auto;
+	}
+
+	h1 {
+	color: black;
+	visibility: hidden;
+	display: none;
 	}
 
 }
