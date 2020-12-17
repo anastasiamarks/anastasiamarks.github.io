@@ -247,7 +247,11 @@ h1 {
 		padding: 20px 0px 20px 0px;
 		background-color: transparent;
 		background-repeat: repeat;
-		height: auto;
+		height: 1200px;
+	}
+
+	.pictureback br {
+		display: none;
 	}
 
 	h1 {
@@ -257,7 +261,7 @@ h1 {
 }
 
 
-@media (max-width: 800px)(min-width: 425px){
+@media (max-width: 1000px){
 	
 	.black-back{
 		background-repeat: repeat;
@@ -270,16 +274,25 @@ h1 {
 	}
 
 	.pictureback{
-		padding: 20px 0px 20px 0px;
+		padding: 50px 0px 50px 0px;
 		background-color: transparent;
 		background-repeat: repeat;
-		height: auto;
+		
 	}
+
+	.pictureback p{
+		margin-top: 50px;
+		margin-bottom: 30px;
+	}
+
 
 	h1 {
 	color: black;
 	visibility: hidden;
 	display: none;
 	}
+
+}
+
 
 }
