@@ -1,0 +1,262 @@
+/*body{
+	background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/12/Free-Beautiful-Landscape-Image.jpg");
+	background-repeat: no-repeat;
+
+}*/
+
+.black-nav {
+	background-color: black;
+	border-bottom: 1px solid;
+	padding: 15px 0px 15px 0px;
+	text-align: center;
+	color: white;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+	font-family: 'Open Sans', serif;
+}
+
+a:hover {
+	text-decoration: none;
+	color: white;
+	background-color: #f5cf29;
+}
+
+.black-back {
+	background: url(../images/darkfront.JPG);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-color: black;
+	width: auto;
+	height: auto;
+	padding-top: 200px;
+	padding-bottom: 800px;
+}
+
+.titlebox {
+	width: 500px;
+	border: 5px solid white;
+	padding: 50px;
+	margin: 20px;
+	vertical-align: center;
+	position: absolute; 
+	top: 50%;
+	left: 50%;
+	margin-left: -270px;
+	margin-top: -230px;
+
+}
+
+h2, h4, #byline {
+	font-family: 'Open Sans', serif;
+	font-weight: lighter;
+	color: white;
+	text-align: center;
+
+}
+
+h2{
+	font-size: 80px;
+	line-height: 80px;
+	padding: 40px 0;
+}
+
+h4{
+	font-size: 20px;
+}
+
+#byline{
+	font-size: 15px;
+}
+
+.whiteback, .blackback{
+	width: auto;
+	height: 100%;
+	background-color: white;
+	padding: 100px 0px 100px 0px;
+
+}
+
+.whiteback{
+	padding-top: 160px;
+}
+
+.blurbbox {
+	width: 350px;
+  	border: 5px solid grey;
+  	padding: 50px;
+  	margin: 20px;
+}
+
+.continue {
+	font-family: 'Playfair Display', sans-serif;
+	font-weight: bold;
+	font-style: italic;
+	color: black;
+	float: right;
+	padding-right: 10px;
+	opacity: 0.5;
+}
+
+.enrollment{
+	color: black;
+	font-family: 'Playfair Display', sans-serif;
+	font-weight: bold;
+	text-align: left;
+}
+
+.blackback{
+	background-color: black;
+	color: white;
+
+}
+
+.graphbox{
+	width: 500px;
+	height: 575px;
+  	border: 5px solid #c70808;
+  	padding: 50px;
+  	margin: 20px;
+}
+
+#listen{
+	font-style: italic;
+	font-weight: bold;
+	font-family: 'Playfair Display', serif;
+}
+
+h3{
+	font-family: 'Open Sans', serif;
+	font-size: 18px;
+}
+
+.pictureback{
+	background: url('../images/newdarkgreen.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-color: black;
+	width: auto;
+	height: 700px;
+	padding: 70px 0px 0px 0px;
+}
+
+.finaltext{
+	color:white;
+}
+
+/*FLIPCARD*/
+/*FLIPCARD*/
+/*FLIPCARD*/
+
+.flip-card {
+  background-color: transparent;
+  width: 100%;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #c70808;
+  color: white;
+  font-family: 'Open Sans', serif;
+  font-size: 20px;
+
+}
+
+.flip-card-back {
+  background-color: black;
+  font-family: "Open Sans", serif;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.row{
+	align-items: center;
+
+}
+
+
+/*BREAKPOINTS*/
+@media (max-width: 425px){
+
+
+	.titlebox {
+    	padding-left: 170px;
+    	border: hidden;
+    	text-align: center;
+    	left: 55%;
+    	width: 300px;
+  }
+
+	.blurbbox {
+		margin: 0 auto;
+		width: 300px;
+	}
+
+	h2{
+		font-size: 40px;
+	}
+
+	.graphbox{
+		max-width: 300px;
+		padding:0;
+		top: 50%;
+		left: 50%;
+	}
+
+	.black-back{
+		width: auto;
+		max-width: 425px;
+		padding-bottom: 800px;
+	}
+
+	.justify-content-around{
+		margin: 0;
+	}
+
+	.flip-card{
+		height: 250px;
+	}
+
+	.pictureback{
+		padding: 0;
+		background-color: transparent;
+		background-repeat: repeat;
+	}
+}
+
+@media (max-width: 800px)(min-width: 425px){
+	.titlebox{
+		left:51%;
+	}
+
+	.graphbox {
+		align-items: center;
+		left: 50%;
+	}
+
+}
